@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "name": "nba",
+      "path": "."
+    },
+    {
+      "name": "native",
+      "path": "./apps/native"
+    },
+    {
+      "name": "web",
+      "path": "./apps/web"
+    }
+  ],
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode"]
+  },
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      // "source.fixAll": true,
+      "source.fixAll.eslint": true
+      // "source.organizeImports": true,
+      // "source.addMissingImports": true
+    },
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "disabled"
+  }
+}
