@@ -10,9 +10,10 @@
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
   },
+  "dependencies": {},
   "devDependencies": {
     "prettier": "3.0.0",
-    "turbo": "latest"
+    "turbo": "1.10.7"
   },
   "packageManager": "yarn@1.22.19"
 }
